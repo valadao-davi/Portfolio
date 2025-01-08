@@ -1,18 +1,19 @@
 import { Dot, Github, Linkedin, MapPin } from "lucide-react";
 import Header from "./Header";
 import P from "./PText";
+import H1 from "./H1Text";
 
 function Resume() {
   return (
     <div className="bg-[#030712] w-screen h-fit flex flex-col gap-y-20 pb-14 pt-40  max-[620px]:pt-20 max-[620px]:pb-7" >
-      <Header></Header>
+      <Header />
       <div className="px-5 py-6 flex justify-center">
         <div className=" w-10/12 h-fit flex flex-row gap-x-12 max-[620px]:flex-col-reverse max-[620px]:gap-y-12 ">
           <div className="flex flex-col w-8/12 justify-start gap-y-12 max-[620px]:w-11/12  max-[620px]:gap-y-8">
             <div className="flex flex-col gap-2">
-              <h1 className="text-[#f9fafb] text-6xl max-[620px]:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
+              <H1 >
                 Hi, I'm Davi 👋
-              </h1>
+              </H1>
               <P>
                 I'm a full-stack developer skilled in Angular, TypeScript, and
                 Node.js, passionate about creating responsive, user-focused

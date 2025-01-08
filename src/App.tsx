@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className='w-screen h-screen'>
-      <Resume></Resume>
+      <Resume />
       </div>
   )
 }
