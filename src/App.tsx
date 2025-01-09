@@ -1,14 +1,14 @@
-
-import './App.css'
-import Resume from './components/Resume'
+import "./App.css";
+import AboutMe from "./components/sections/AboutMe/AboutMe";
+import Resume from "./components/sections/Resume/Resume";
 
 function App() {
-
   return (
-    <div className='w-screen h-screen'>
+    <div className="w-screen overflow-x-hidden max-w-screen  h-screen">
       <Resume />
-      </div>
-  )
+      <AboutMe />
+    </div>
+  );
 }
 
-export default App
+export default App;
