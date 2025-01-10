@@ -3,7 +3,7 @@ import TitleMini from "../../TitleMini";
 
 function AboutMe() {
   return (
-    <div className="bg-[#111827] w-screen h-fit flex pb-28 pt-14 justify-center  max-[620px]:pt-1 max-[620px]:pb-14">
+    <div className="bg-[#111827] w-screen h-fit flex pb-28 pt-14 justify-center  max-[900px]:pt-1 max-[900px]:pb-14">
       <div className="w-10/12 h-fit flex flex-col pt-14 gap-y-8 items-center justify-center">
         <TitleMini>About me</TitleMini>
         <div className="w-11/12 h-fit flex flex-row gap-x-12 max-[900px]:flex-col max-[900px]:gap-y-12 max-[900px]:items-center">
@@ -26,43 +26,60 @@ function AboutMe() {
             </h3>
             <div className="flex flex-col gap-y-4">
               <P>
-                I'm a passionate full-stack developer specializing in Angular,
-                Node.js, TypeScript, and MongoDB, with a strong focus on backend
-                development. I’m always eager to learn, currently exploring
-                React and Java to broaden my skills. My love for programming
-                stems from its rewarding learning curve, and I thrive on solving
-                problems and delivering optimal solutions.
+                👨‍💻 <strong>Professional Resume:</strong> I’m a full-stack developer specializing
+                in Angular, Node.js, TypeScript, and MongoDB, with a strong
+                focus on backend development. I’m always eager to learn and
+                currently expanding my skills with React and Java. What I love
+                most about programming is its rewarding learning curve—it’s all
+                about solving problems, overcoming challenges, and delivering
+                efficient solutions.
               </P>
 
               <P>
-                My journey began at age 12 with Python, sparking my passion for
-                this field. At 16, I formalized my studies through a technical
-                course at SENAI, where I worked on diverse projects, including
-                my capstone project, which remains a significant milestone in my
-                career.
+                🚀 <strong>My Programming Journey:</strong> It all began at age 12 with Python,
+                sparking my passion for this field. At 16, I formalized my
+                studies through a technical course at SENAI, where I worked on
+                diverse projects, including my capstone project, which remains a
+                significant milestone in my career. Nowadays, I’m continuing my
+                learning journey at FATEC College, where I’m diving deeper into
+                software development.
               </P>
 
               <P>
-                Currently, I’m wrapping up Soundbrary, my most ambitious project
-                to date, which is in the testing phase and soon to be deployed.
-                My portfolio is ever-growing, with highlights like a Node.js
-                Spotify API integration project used in Soundbrary.
+                🎯 <strong>Current Focus:</strong> Currently, I’m putting the finishing touches
+                on Soundbrary, my most ambitious project so far, which is now in
+                the testing phase and getting ready to go live. My portfolio is
+                always growing, but a highlight has to be the Node.js Spotify
+                API integration I developed, which became an integral part of
+                this very application.
               </P>
+
               <P>
-                I thrive in collaborative environments. My capstone experience
-                involved constant teamwork, fostering knowledge sharing and
-                minimizing errors. Outside of programming, I enjoy playing
-                guitar and acoustic guitar, diving into classic single-player
-                games, and watching anime and series.
+                🤝 <strong>Collaboration Matters:</strong> I thrive in collaborative
+                environments. During my capstone project, teamwork was
+                essential, fostering knowledge sharing and catching errors
+                early. I truly believe collaboration is where innovation and
+                growth happen, and it’s the kind of environment I love to be
+                part of.
               </P>
+
               <P>
-                You can find me sharing achievements and projects on LinkedIn
-                and showcasing my work on GitHub. I’m open to freelance
-                opportunities, particularly in web application development,
-                always ready to embrace new challenges. In the future, I see
-                myself as a backend developer contributing creative solutions
-                and perhaps leading innovative products. Let’s build something
-                amazing together! 🚀
+                🎸 <strong>Beyond the Code:</strong> Outside of programming, I am an extroverted
+                individual with a passion for learning new things. This drive
+                extends beyond technology to various interests, including
+                practicing guitar, playing single-player games, and enjoying
+                listening to music, especially rock, which inspires me
+                creatively and offers moments of energy.
+              </P>
+
+              <P>
+                🌐 <strong>Let’s Connect:</strong> You can check out my work on LinkedIn or
+                GitHub, where I share projects and achievements. I’m open to
+                freelance opportunities, particularly in web application
+                development. In the future, I see myself as a backend developer
+                contributing creative solutions and potentially leading
+                innovative products. Let’s connect and build something great
+                together! 😁
               </P>
             </div>
           </div>
