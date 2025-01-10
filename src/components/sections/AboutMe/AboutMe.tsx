@@ -1,18 +1,15 @@
 import P from "../../PText";
+import TitleMini from "../../TitleMini";
 
 function AboutMe() {
   return (
-    <div className="bg-[#111827] w-screen h-fit flex pb-14 pt-28 justify-center  max-[620px]:pt-14 max-[620px]:pb-7">
-      <div className="w-10/12 h-fit flex flex-col gap-y-8 items-center justify-center">
-        <div className="w-11/12 flex justify-center">
-          <div className="py-1 px-4  bg-[#374151] flex justify-center rounded-xl">
-            <P>About me</P>
-          </div>
-        </div>
+    <div className="bg-[#111827] w-screen h-fit flex pb-28 pt-14 justify-center  max-[620px]:pt-1 max-[620px]:pb-14">
+      <div className="w-10/12 h-fit flex flex-col pt-14 gap-y-8 items-center justify-center">
+        <TitleMini>About me</TitleMini>
         <div className="w-11/12 h-fit flex flex-row gap-x-12 max-[620px]:flex-col max-[620px]:gap-y-12 max-[620px]:items-center">
           <div className="w-6/12 max-[620px]:w-full max-[620px]:flex max-[620px]:justify-center">
-            <div className="h-fit w-10/12  flex justify-end max-[620px]:justify-center">
-              <div className="relative w-10/12 max-[620px]:w-8/12 md:max-w-md lg:max-w-lg aspect-square">
+            <div className="h-fit w-10/12 flex justify-end max-[620px]:justify-center">
+              <div className="relative w-10/12 max-[620px]:w-9/12 max-[680px]:w-full   md:max-w-md lg:max-w-xl xl:max-w-2xl aspect-square">
                 <div className="absolute top-7 right-7 w-full h-full bg-gray-700"></div>
 
                 <img
