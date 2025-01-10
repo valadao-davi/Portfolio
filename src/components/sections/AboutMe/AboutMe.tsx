@@ -6,8 +6,8 @@ function AboutMe() {
     <div className="bg-[#111827] w-screen h-fit flex pb-28 pt-14 justify-center  max-[620px]:pt-1 max-[620px]:pb-14">
       <div className="w-10/12 h-fit flex flex-col pt-14 gap-y-8 items-center justify-center">
         <TitleMini>About me</TitleMini>
-        <div className="w-11/12 h-fit flex flex-row gap-x-12 max-[620px]:flex-col max-[620px]:gap-y-12 max-[620px]:items-center">
-          <div className="w-6/12 max-[620px]:w-full max-[620px]:flex max-[620px]:justify-center">
+        <div className="w-11/12 h-fit flex flex-row gap-x-12 max-[900px]:flex-col max-[900px]:gap-y-12 max-[900px]:items-center">
+          <div className="w-6/12 max-[900px]:w-full max-[620px]:flex max-[620px]:justify-center">
             <div className="h-fit w-10/12 flex justify-end max-[620px]:justify-center">
               <div className="relative w-10/12 max-[620px]:w-9/12 max-[680px]:w-full   md:max-w-md lg:max-w-xl xl:max-w-2xl aspect-square">
                 <div className="absolute top-7 right-7 w-full h-full bg-gray-700"></div>
@@ -20,7 +20,7 @@ function AboutMe() {
               </div>
             </div>
           </div>
-          <div className="w-6/12 flex flex-col gap-y-6 max-[620px]:w-full">
+          <div className="w-6/12 flex flex-col gap-y-6 max-[900px]:w-full">
             <h3 className="text-[#f9fafb] text-4xl max-[620px]:text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-bold">
               Know more about my person:
             </h3>
