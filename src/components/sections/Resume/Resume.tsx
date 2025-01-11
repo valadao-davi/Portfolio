@@ -2,12 +2,13 @@ import { Dot, Github, Linkedin, MapPin } from "lucide-react";
 import Header from "./Header";
 import P from "../../PText";
 import H1 from "../../H1Text";
+import Section from "../../Section";
 
 function Resume() {
   return (
-    <div className="bg-[#030712] w-screen h-fit flex flex-col gap-y-20 pb-14 pt-40  max-[620px]:pt-20 max-[620px]:pb-7">
+    <Section bgColor="#030712">
       <Header />
-      <div className="px-5 py-6 flex justify-center">
+      <div className="px-10 py-16 flex justify-center">
         <div className=" w-10/12 h-fit flex flex-row gap-x-12 max-[620px]:flex-col-reverse max-[620px]:gap-y-12 ">
           <div className="flex flex-col w-8/12 justify-start gap-y-12 max-[620px]:w-11/12  max-[620px]:gap-y-8">
             <div className="flex flex-col gap-2">
@@ -56,7 +57,7 @@ function Resume() {
           </div>
         </div>
       </div>
-    </div>
+    </Section>
   );
 }
 

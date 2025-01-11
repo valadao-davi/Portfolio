@@ -1,10 +1,11 @@
+import Section from "../../Section";
 import P from "../../PText";
 import TitleMini from "../../TitleMini";
 
 function AboutMe() {
   return (
-    <div className="bg-[#111827] w-screen h-fit flex pb-28 pt-14 justify-center  max-[900px]:pt-1 max-[900px]:pb-14">
-      <div className="w-10/12 h-fit flex flex-col pt-14 gap-y-8 items-center justify-center">
+    <Section bgColor="#111827">
+      <div className="w-10/12 h-fit flex flex-col pt-2 pb-8 gap-y-20 max-[900px]:gap-y-10 items-center justify-center">
         <TitleMini>About me</TitleMini>
         <div className="w-11/12 h-fit flex flex-row gap-x-12 max-[900px]:flex-col max-[900px]:gap-y-12 max-[900px]:items-center">
           <div className="w-6/12 max-[900px]:w-full max-[620px]:flex max-[620px]:justify-center">
@@ -85,7 +86,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
-    </div>
+    </Section>
   );
 }
 export default AboutMe;

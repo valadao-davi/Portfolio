@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutMe from "./components/sections/AboutMe/AboutMe";
+import Projects from "./components/sections/Projects/Projects";
 import Resume from "./components/sections/Resume/Resume";
 import Skills from "./components/sections/Skills/Skills";
 
@@ -9,6 +10,7 @@ function App() {
       <Resume />
       <AboutMe />
       <Skills />
+      <Projects />
     </div>
   );
 }

@@ -9,7 +9,7 @@ function Header(){
             <ItemHeader>Contact</ItemHeader>
         </ul>
         <button className="bg-slate-50 w-fit h-fit p-2 rounded-md max-[620px]:p-1">
-            <p className="text-[#111827] text-base max-[620px]:text-xs sm:text-sm font-medium">Download CV</p>
+            <p className="text-[#111827] text-base max-[620px]:text-xs sm:text-sm font-medium min-[1540px]:text-xl">Download CV</p>
         </button>
       </div>
     )

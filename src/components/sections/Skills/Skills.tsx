@@ -1,10 +1,11 @@
+import Section from "../../Section";
 import TitleAndSub from "../../TitleAndSub";
 import ItemSkill from "./ItemSkill";
 
 function Skills() {
   return (
-    <div className="bg-[#030712] w-screen h-fit flex pb-14 pt-28 justify-center  max-[620px]:pt-14 max-[620px]:pb-7">
-      <div className="w-10/12 h-fit flex flex-col items-center gap-y-12">
+    <Section bgColor="#030712">
+      <div className="w-10/12 pb-10 h-fit flex flex-col items-center gap-y-12">
         <TitleAndSub
           title={"Skills"}
           subtitle={"Frameworks, Languages, and Tools I Use: "}
@@ -32,7 +33,7 @@ function Skills() {
           <ItemSkill src="/logos--figma.svg">Figma</ItemSkill>
         </div>
       </div>
-    </div>
+    </Section>
   );
 }
 
